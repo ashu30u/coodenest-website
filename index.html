@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CoodeNest — We build systems that compound.</title>
+<meta name="description" content="We’re an online freelancing agency turning ideas into digital experiences. From development and design to creative solutions, our skilled team delivers professional work with quality, creativity, and reliability.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 120 120%22><circle cx=%2260%22 cy=%2260%22 r=%2254%22 fill=%22%23070b16%22 stroke=%22%233672fa%22 stroke-width=%224%22/><path d=%22M36 62 L60 42 L84 62%22 stroke=%22%23d7e3f7%22 stroke-width=%228%22 fill=%22none%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/></svg>">
+<link rel="stylesheet" href="css/style.css?v=18.0">
+<link rel="stylesheet" href="css/pages.css?v=18.0">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="brand">
+      <img src="images/navbarcircular-logo.png" alt="CoodeNest Logo" class="brand-logo-img">
+      <span class="brand-text">
+        <span class="name">Coode<b>Nest</b></span>
+        <span class="tagline">CODE. CREATE. CONNECT.</span>
+      </span>
+    </a>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+
+        <li class="has-mega">
+          <a href="services.html" class="nav-link">Services
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
+          </a>
+          <div class="mega-panel">
+            <div class="mega-grid">
+              <a class="mega-item" href="services.html#web-design">
+                <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><path d="M7 8h4M7 11h2"/><rect x="14" y="7" width="4" height="6" rx="1"/></svg></span>
+                <span class="txt"><strong>Web Design</strong><span>Fast, modern, responsive websites</span></span>
+              </a>
+              <a class="mega-item" href="services.html#graphic-design">
+                <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></span>
+                <span class="txt"><strong>Graphic Design</strong><span>Logos, banners, posters &amp; branding</span></span>
+              </a>
+              <a class="mega-item" href="services.html#video-editing">
+                <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M2 9h20M2 14h20M7 4v5M12 4v5M17 4v5M10 12l5 3-5 3v-6z"/></svg></span>
+                <span class="txt"><strong>Video Editing</strong><span>Reels, YouTube edits &amp; animations</span></span>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+        <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" data-search-trigger aria-label="Search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      </button>
+      <a href="contact.html#book" class="nav-cta-btn desktop-only" data-book-trigger>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        <span>Book Free 20-Min Call</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <button class="hamburger" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile drawer -->
+<div class="mobile-drawer">
+  <div class="mobile-drawer-panel">
+    <div class="flex" style="justify-content:space-between;align-items:center;">
+      <span class="brand-text"><span class="name">Coode<b>Nest</b></span></span>
+      <button class="close-drawer icon-btn" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <ul>
+      <li><a href="index.html" class="top-link">Home</a></li>
+      <li><a href="services.html" class="top-link">Services</a></li>
+      <li><a href="portfolio.html" class="top-link">Portfolio</a></li>
+      <li><a href="pricing.html" class="top-link">Pricing</a></li>
+      <li><a href="about.html" class="top-link">About</a></li>
+      <li><a href="contact.html" class="top-link">Contact</a></li>
+    </ul>
+    <a href="contact.html#book" class="btn btn-primary btn-block mt-24" data-book-trigger>Book Free 20-Min Call</a>
+  </div>
+</div>
+
+<!-- Search overlay -->
+<div class="search-overlay">
+  <div class="search-box">
+    <div class="search-input-row">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="text" placeholder="Search services, pages, pricing…" autocomplete="off">
+      <span class="search-esc">Esc</span>
+    </div>
+    <div class="search-results"></div>
+    <div class="search-empty">No results found. Try “pricing” or “services”.</div>
+  </div>
+</div>
+
+
+<main>
+
+<section class="home-hero">
+  <div class="bg-field"></div>
+  <div class="container home-hero-grid">
+    <div>
+      <div class="hero-launch-badge">
+        <span class="badge-live-dot"></span>
+        <span class="badge-status">AVAILABLE NOW</span>
+        <a href="pricing.html" class="badge-link">
+          Founder's Mega Launch
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      
+      <h1 class="hero-title">
+        <span class="hero-title-line1">WE BUILD NESTS</span>
+        <span class="hero-title-line2">FOR IDEAS.</span>
+        <span class="hero-title-line3">WE CODE <span class="cyan-highlight">THE FUTURE</span></span>
+      </h1>
+
+      <div class="hero-code-divider">
+        <span class="laser-line left"></span>
+        <span class="code-tag">&lt;/&gt;</span>
+        <span class="laser-line right"></span>
+      </div>
+
+      <p class="hero-lead">We’re an online freelancing agency turning ideas into digital experiences. From development and design to creative solutions, our skilled team delivers professional work with quality, creativity, and reliability.</p>
+      
+      <div class="hero-cta-group">
+        <a href="contact.html#book" class="btn-hero-primary" data-book-trigger>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <span>Book Free 20-Min Call</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="portfolio.html" class="btn-play-action">
+          <span class="play-circle">
+            <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="7 4 20 12 7 20 7 4"/></svg>
+          </span>
+          <span>View Selected Work</span>
+          <svg class="arrow-mini" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="hero-status-pill">
+        <span class="status-location">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Chhattisgarh, India
+        </span>
+        <span class="status-divider"></span>
+        <span class="status-active">
+          <span class="active-dot"></span>
+          Studio Active
+        </span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-brand-wrap">
+        <div class="hero-ambient-glow"></div>
+        <img src="images/navbarcircular-logo.png" alt="CoodeNest 3D Logo Emblem" width="540" height="540" class="hero-emblem-large">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="container">
+    <div class="eyebrow">01 / The Problem</div>
+    <h2 class="h2" style="max-width:760px;">Software shouldn't be a cost center.</h2>
+    <p class="lead mt-16">Most businesses pay for "work" instead of "outcomes". Fragmented teams create friction, slowing down your growth while increasing overhead.</p>
+
+    <div class="problem-grid">
+      <div class="problem-item">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.9M16 3.1a4 4 0 010 7.8"/></svg></div>
+        <h4>Vendor Sprawl</h4>
+        <p>A designer here, a developer there, an ads freelancer somewhere else. Nobody sees the whole system — so nothing compounds.</p>
+      </div>
+      <div class="problem-item">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h4>Manual Bottlenecks</h4>
+        <p>Quotes, follow-ups, reporting and data entry still run on people. Capacity caps growth long before demand does.</p>
+      </div>
+      <div class="problem-item">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 1l22 22"/><path d="M16.7 16.7A9.9 9.9 0 0112 18c-5 0-9-4-11-6a17.6 17.6 0 013.4-3.7M9.9 4.2A10.4 10.4 0 0112 4c5 0 9 4 11 8a18 18 0 01-2.2 3.2"/><path d="M14.1 14.1a3 3 0 10-4.2-4.2"/></svg></div>
+        <h4>Invisible Online</h4>
+        <p>Buyers search, compare and shortlist before they ever call. If the digital footprint is thin, you are never in the room.</p>
+      </div>
+      <div class="problem-item">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M18 8l4 4m0-4l-4 4"/></svg></div>
+        <h4>No Single Owner</h4>
+        <p>When results slip, every vendor points at another. Accountability disappears exactly when it matters most.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" style="padding-top:0;">
+  <div class="container">
+    <div class="eyebrow">02 / Services</div>
+    <h2 class="h2 mt-16" style="max-width:760px;">Three capabilities, <span class="accent-italic">one owner.</span></h2>
+    <p class="lead mt-16 mb-40">We handle the creative, technical, and strategic heavy lifting so you can focus on scale. Everything we build is designed to look premium, engage audiences, and convert.</p>
+    
+    <div class="grid-3">
+
+      <!-- 1. Web Design -->
+      <div class="card cap-card" id="web-design">
+        <span class="flag" style="background:rgba(59,130,246,0.15); color:#60a5fa; border:1px solid rgba(59,130,246,0.3);">Flagship</span>
+        <div class="ic" style="background:rgba(59,130,246,0.15); color:#3b82f6; border:1px solid rgba(59,130,246,0.3);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+            <path d="M7 8h4M7 11h2"/>
+            <rect x="14" y="7" width="4" height="6" rx="1"/>
+          </svg>
+        </div>
+        <h4>Web Design</h4>
+        <p>Custom, responsive, and high-converting websites built to give your brand a stunning online presence and turn visitors into clients.</p>
+        <ul>
+          <li>Custom Website &amp; Landing Pages</li>
+          <li>Responsive &amp; Mobile-First Architecture</li>
+          <li>Fast Loading Speed &amp; SEO Optimization</li>
+          <li>WhatsApp, Contact Form &amp; Analytics Integration</li>
+        </ul>
+        <div class="badge-line" style="margin-top:16px; color:#38bdf8; font-weight:700;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2-6.3-4.6-6.3 4.6 2.3-7.2-6-4.4h7.6z"/></svg>
+          Starting from ₹5,000
+        </div>
+        <a href="pricing.html#packages" class="learn-more">View Packages &amp; Pricing
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <!-- 2. Graphic Design -->
+      <div class="card cap-card" id="graphic-design">
+        <span class="flag" style="background:rgba(45,212,191,0.15); color:#2dd4bf; border:1px solid rgba(45,212,191,0.3);">Best Value</span>
+        <div class="ic" style="background:rgba(45,212,191,0.15); color:#2dd4bf; border:1px solid rgba(45,212,191,0.3);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+            <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+            <path d="M2 2l7.586 7.586"/>
+            <circle cx="11" cy="11" r="2"/>
+          </svg>
+        </div>
+        <h4>Graphic Design</h4>
+        <p>Aesthetic visual assets that speak for your business — from memorable logos and brand guidelines to high-converting social media creatives.</p>
+        <ul>
+          <li>Logo Design &amp; Brand Identity</li>
+          <li>Social Media Posts, Banners &amp; Posters</li>
+          <li>Business Cards, Brochures &amp; Flyers</li>
+          <li>Unlimited Revisions for 100% Satisfaction</li>
+        </ul>
+        <div class="badge-line" style="margin-top:16px; color:#2dd4bf; font-weight:700;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2-6.3-4.6-6.3 4.6 2.3-7.2-6-4.4h7.6z"/></svg>
+          Starting from ₹500
+        </div>
+        <a href="pricing.html#packages" class="learn-more">View Packages &amp; Pricing
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <!-- 3. Video Editing -->
+      <div class="card cap-card" id="video-editing">
+        <div class="ic" style="background:rgba(236,72,153,0.15); color:#ec4899; border:1px solid rgba(236,72,153,0.3);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="4" width="20" height="16" rx="3"/>
+            <path d="M2 9h20M2 14h20M7 4v5M12 4v5M17 4v5M10 12l5 3-5 3v-6z"/>
+          </svg>
+        </div>
+        <h4>Video Editing</h4>
+        <p>Engaging, dynamic video edits designed to grab attention, boost engagement, and grow your audience across all platforms.</p>
+        <ul>
+          <li>Instagram Reels, YouTube Shorts &amp; Ads</li>
+          <li>Clean Cuts, Trims &amp; Smooth Transitions</li>
+          <li>Animated Captions, Titles &amp; Motion Graphics</li>
+          <li>Background Music, Sound Effects &amp; HD Export</li>
+        </ul>
+        <div class="badge-line" style="margin-top:16px; color:#ec4899; font-weight:700;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2-6.3-4.6-6.3 4.6 2.3-7.2-6-4.4h7.6z"/></svg>
+          Starting from ₹500
+        </div>
+        <a href="pricing.html#packages" class="learn-more">View Packages &amp; Pricing
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-pad" style="padding-top:0;">
+  <div class="container">
+    <div class="cta-band">
+      <h2 class="h2">Ready to build <span class="accent-italic">something real?</span></h2>
+      <p>Join the Founder's Mega Launch and secure one of the remaining slots for Q3/Q4 2026.</p>
+      <div class="actions">
+        <a href="contact.html#book" class="btn btn-primary" data-book-trigger>Book Free 20-Min Call</a>
+        <a href="pricing.html" class="btn btn-secondary">View Launch Pricing</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img src="images/navbarcircular-logo.png" alt="CoodeNest Logo" class="brand-logo-img">
+          <span class="brand-text"><span class="name">Coode<b>Nest</b></span></span>
+        </a>
+        <p>From powerful websites to creative posters and engaging videos, we turn your ideas into digital experiences that stand out.</p>
+        <div class="addr">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0116 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Chhattisgarh, India</span>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#web-design">Web Design</a></li>
+          <li><a href="services.html#graphic-design">Graphic Design</a></li>
+          <li><a href="services.html#video-editing">Video Editing</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="contact-line">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.1-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2.2z"/></svg>
+          <a href="tel:+917869594579">+91 78695 94579</a>
+        </div>
+        <div class="contact-line">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 01-2.2 2 19.8 19.8 0 01-8.6-3.1 19.5 19.5 0 01-6-6 19.8 19.8 0 01-3.1-8.7A2 2 0 014.1 2h3a2 2 0 012 1.7c.1.9.3 1.8.6 2.7a2 2 0 01-.4 2.1L8 9.9a16 16 0 006 6l1.4-1.4a2 2 0 012.1-.4c.9.3 1.8.5 2.7.6a2 2 0 011.8 2.2z"/></svg>
+          <a href="tel:+917470346272">+91 747 034 6272</a>
+        </div>
+        <div class="contact-line">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+          <a href="mailto:coodenest348@gmail.com">coodenest348@gmail.com</a>
+        </div>
+        <div class="contact-line">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.1-.3.2-.6.1a7.6 7.6 0 01-2.2-1.4 8.4 8.4 0 01-1.6-2c-.2-.3 0-.5.1-.6l.4-.5.3-.4a.5.5 0 000-.5c-.1-.1-.7-1.6-.9-2.2s-.5-.5-.7-.5h-.6a1.1 1.1 0 00-.8.4 3.4 3.4 0 00-1 2.5 5.9 5.9 0 001.3 3.2 13.4 13.4 0 005.1 4.5c.7.3 1.3.5 1.7.6a4.1 4.1 0 001.9.1 3.1 3.1 0 002-1.4 2.5 2.5 0 00.2-1.4c-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2z"/></svg>
+          <a href="https://wa.me/917869594579?text=Hi%20CoodeNest%2C%20I%20am%20interested%20in%20your%20services.%20Please%20share%20more%20details." target="_blank" rel="noopener noreferrer" data-wa-text="Hi CoodeNest, I am interested in your services. Please share more details.">WhatsApp Chat</a>
+        </div>
+        <p class="contact-note">Alfiya Ali — real expertise behind every project.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Social</h4>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5H16l.4-3H13.5V8.4c0-.9.2-1.5 1.5-1.5H16V4.2A20 20 0 0013.9 4c-2.2 0-3.7 1.3-3.7 3.9v2.6H7.8v3h2.4V21z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.9 8.4H3.6V20h3.3zM5.3 3a1.9 1.9 0 100 3.9A1.9 1.9 0 005.3 3zM20.4 20v-6.4c0-3.4-1.8-5-4.3-5a3.7 3.7 0 00-3.3 1.8V8.4H9.5S9.6 9.6 9.5 20h3.3v-6.5c0-.3 0-.7.1-.9.3-.7 1-1.5 2.1-1.5 1.5 0 2.1 1.1 2.1 2.8V20z"/></svg></a>
+          <a href="https://wa.me/917869594579?text=Hi%20CoodeNest%2C%20I%20am%20interested%20in%20your%20services.%20Please%20share%20more%20details." target="_blank" rel="noopener noreferrer" data-wa-text="Hi CoodeNest, I am interested in your services. Please share more details." aria-label="Chat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 CoodeNest · Freelancing Agency · India → Global. All rights reserved.</span>
+      <span>Crafted with care · Code. Create. Connect.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="floating-book">
+  <a href="contact.html#book" class="btn-floating-pill" data-book-trigger>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/><circle cx="12" cy="15" r="1.4" fill="currentColor" stroke="none"/></svg>
+    <span>Book Free 20-Min Call</span>
+  </a>
+  <svg class="scroll-down-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><path d="M6 9l6 6 6-6"/></svg>
+</div>
+
+<div class="floating-chat-cluster">
+  <a href="https://wa.me/917869594579?text=Hi%20CoodeNest%2C%20I%20am%20interested%20in%20your%20services.%20Please%20share%20more%20details." target="_blank" rel="noopener noreferrer" class="fab whatsapp-fab" data-wa-text="Hi CoodeNest, I am interested in your services. Please share more details." aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.1-.3.2-.6.1a7.6 7.6 0 01-2.2-1.4 8.4 8.4 0 01-1.6-2c-.2-.3 0-.5.1-.6l.4-.5.3-.4a.5.5 0 000-.5c-.1-.1-.7-1.6-.9-2.2s-.5-.5-.7-.5h-.6a1.1 1.1 0 00-.8.4 3.4 3.4 0 00-1 2.5 5.9 5.9 0 001.3 3.2 13.4 13.4 0 005.1 4.5c.7.3 1.3.5 1.7.6a4.1 4.1 0 001.9.1 3.1 3.1 0 002-1.4 2.5 2.5 0 00.2-1.4c-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2z"/></svg>
+  </a>
+</div>
+
+
+<div class="modal-overlay" id="bookingModal">
+  <div class="modal-box">
+    <div id="bookingFormWrap">
+      <div class="modal-head">
+        <div>
+          <h3>Book Your Free 20-Min Call</h3>
+          <p class="modal-sub">No sales pitch — just a focused conversation to map your next move.</p>
+        </div>
+        <button class="modal-close" data-book-close aria-label="Close">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+
+      <a href="#" class="btn btn-secondary btn-block" data-wa-text="Hi CoodeNest, I'd like to book a free 20-min call. Here are my details:">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.1-.3.2-.6.1a7.6 7.6 0 01-2.2-1.4 8.4 8.4 0 01-1.6-2c-.2-.3 0-.5.1-.6l.4-.5.3-.4a.5.5 0 000-.5c-.1-.1-.7-1.6-.9-2.2s-.5-.5-.7-.5h-.6a1.1 1.1 0 00-.8.4 3.4 3.4 0 00-1 2.5 5.9 5.9 0 001.3 3.2 13.4 13.4 0 005.1 4.5c.7.3 1.3.5 1.7.6a4.1 4.1 0 001.9.1 3.1 3.1 0 002-1.4 2.5 2.5 0 00.2-1.4c-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.1l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1120.2 12 8.2 8.2 0 0112 20.2z"/></svg>
+        Continue on WhatsApp instead
+      </a>
+
+      <div class="form-divider-or">or fill the form</div>
+
+      <form id="bookingForm">
+        <div class="form-row">
+          <label for="bk-name">Full name</label>
+          <input type="text" id="bk-name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-two-col">
+          <div class="form-row">
+            <label for="bk-email">Email</label>
+            <input type="email" id="bk-email" name="email" placeholder="you@company.com" required>
+          </div>
+          <div class="form-row">
+            <label for="bk-phone">Phone / WhatsApp</label>
+            <input type="tel" id="bk-phone" name="phone" placeholder="+91 00000 00000" required>
+          </div>
+        </div>
+        <div class="form-two-col">
+          <div class="form-row">
+            <label for="bk-date">Preferred date</label>
+            <input type="date" id="bk-date" name="date" required>
+          </div>
+          <div class="form-row">
+            <label for="bk-time">Preferred time</label>
+            <input type="time" id="bk-time" name="time" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="bk-msg">What's on your mind? (optional)</label>
+          <textarea id="bk-msg" name="message" placeholder="A line or two about your business or project…"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          Confirm Booking Request
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </form>
+    </div>
+
+    <div class="form-success" id="bookingSuccess">
+      <div class="check-circle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M20 6L9 17l-5-5"/></svg>
+      </div>
+      <h4>Request received.</h4>
+      <p>We'll confirm your slot by email/WhatsApp shortly. Talk soon.</p>
+      <button class="btn btn-secondary mt-24" data-book-close>Close</button>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
